@@ -118,9 +118,9 @@ expression: depth_output
      8 B   0.01% ├╴fn_ptr4: fn(u32, u64, i32, f64) -> bool
     16 B   0.02% ├╴layout: core::alloc::layout::Layout
      8 B   0.01% ├╴non_null: core::ptr::non_null::NonNull<i32>
- 8_264 B  12.88% ├╴buf_reader: std::io::buffered::bufreader::BufReader<std::io::cursor::Cursor<alloc::vec::Vec<u8>>>
- 8_256 B  12.87% ├╴buf_writer: std::io::buffered::bufwriter::BufWriter<std::io::cursor::Cursor<alloc::vec::Vec<u8>>>
-    36 B   0.06% ├╴cursor: std::io::cursor::Cursor<alloc::vec::Vec<u8>>
+ 8_264 B  12.88% ├╴buf_reader: std::io::buffered::bufreader::BufReader<core::io::cursor::Cursor<alloc::vec::Vec<u8>>>
+ 8_256 B  12.87% ├╴buf_writer: std::io::buffered::bufwriter::BufWriter<core::io::cursor::Cursor<alloc::vec::Vec<u8>>>
+    36 B   0.06% ├╴cursor: core::io::cursor::Cursor<alloc::vec::Vec<u8>>
      8 B   0.01% ├╴arc: alloc::sync::Arc<i32>
      8 B   0.01% ├╴rc: alloc::rc::Rc<i32>
     92 B   0.14% ├╴vec_deque_nested: alloc::collections::vec_deque::VecDeque<alloc::vec::Vec<i32>>

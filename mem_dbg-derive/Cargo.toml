@@ -1,10 +1,10 @@
 [package]
 name = "mem_dbg-derive"
-version = "0.3.3"
+version = "0.3.4"
 edition = "2024"
 description = "Procedural macros for mem_dbg"
 repository = "https://github.com/zommiommy/mem_dbg-rs"
-license = "Apache-2.0 OR LGPL-2.1-or-later"
+license = "Apache-2.0 OR MIT"
 readme = "README.md"
 keywords = ["allocation", "debug", "memory"]
 categories = ["development-tools::procedural-macro-helpers"]

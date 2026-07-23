@@ -1,10 +1,10 @@
 [package]
 name = "mem_dbg"
-version = "0.4.3"
+version = "0.4.4"
 edition = "2024"
 description = "Traits and associated procedural macros to display recursively the layout and memory usage of a value"
 repository = "https://github.com/zommiommy/mem_dbg-rs"
-license = "Apache-2.0 OR LGPL-2.1-or-later"
+license = "Apache-2.0 OR MIT"
 readme = "README.md"
 keywords = ["allocation", "debug", "memory"]
 categories = ["development-tools::debugging"]
