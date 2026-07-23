@@ -6,6 +6,10 @@
 
 - License is now MIT or Apache.
 
+### Fixed
+
+- `std::io::cursor` -> `core::io:cursor`.
+
 ## [0.4.3] - 2026-06-17
 
 ### Changed
